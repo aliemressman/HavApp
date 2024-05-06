@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity() {
         }
         binding.lottieAnimationView.playAnimation()
     }
-// DENEME 1 21 3
+
     private fun date(): String {
         val sdf = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
         return sdf.format(Date())
@@ -146,6 +146,3 @@ class MainActivity : AppCompatActivity() {
         return sdf.format((Date()))
     }
 }
-
-// <3333
-// DENEME 1 2 3
